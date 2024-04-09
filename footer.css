@@ -1,0 +1,63 @@
+.bottom-div {
+  background-color: rgb(241, 119, 34);
+  height: 400px;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: relative;
+}
+
+.visit,
+.address,
+.get,
+.number,
+.email {
+  margin-left: 20%;
+  color: white;
+  text-align: left;
+}
+
+.visit,
+.get {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.address,
+.number,
+.socials {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.number,
+.email {
+  margin-left: 20px;
+}
+
+.phone,
+.mail {
+  height: 20px;
+  margin-left: 20%;
+}
+
+.contact-container,
+.mail-contact {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.Copyright {
+  text-align: center;
+  color: lightgray;
+  padding: 20px 0 20px 0;
+  border-top: 2px solid lightgray;
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+  right: 70px;
+}

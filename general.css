@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: Roboto, Arial;
+}
+
+hr {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 1px;
+  background-color: rgb(241, 119, 34);
+  border: none;
+}

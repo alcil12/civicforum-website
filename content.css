@@ -1,0 +1,171 @@
+.slide-show {
+  height: 600px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  position: relative;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slide {
+  width: 100%;
+}
+
+.vision,
+.mission {
+  position: absolute;
+  background-color: white;
+  height: 200px;
+  left: 400px;
+  right: 400px;
+}
+
+.vision {
+  top: 300px;
+  z-index: 10;
+}
+
+.vision-title {
+  padding-left: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgb(241, 119, 34);
+}
+
+.description {
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 20px;
+}
+
+.mission {
+  top: 550px;
+  z-index: 10;
+}
+
+.background {
+  display: flex;
+  position: relative;
+  height: 600px;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.back {
+  height: 100%;
+  width: 100%;
+}
+
+.back-title {
+  align-items: center;
+  position: absolute;
+  top: 160px;
+  font-size: 40px;
+  font-weight: 300;
+  color: rgb(241, 119, 34);
+}
+
+.grid1 {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  top: 220px;
+  left: 50px;
+  right: 50px;
+  bottom: -120px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.grid2 {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.integrity-pic {
+  height: 140px;
+  width: 100%;
+  border: none;
+  transition: 0.5s;
+}
+
+.member-name {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 20px;
+}
+
+.focus {
+  font-size: 13px;
+  margin: 20px;
+}
+
+
+.origin {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  color: rgb(241, 119, 34);
+  font-weight: 300;
+}
+
+.read,
+.read-more {
+  margin-top: 170px;
+  display: flex;
+  justify-content: center;
+}
+
+.read-more {
+  margin-top: 15px;
+}
+
+.more {
+  padding: 12px 20px;
+  border-radius: 24px;
+  border-style: solid;
+  border-color: rgb(241, 119, 34);
+  font-weight: 700;
+  background-color: white;
+  color: rgb(241, 119, 34);
+  cursor: pointer;
+  transition: 0.125s;
+  margin-bottom: 50px;
+}
+
+.more:hover {
+  color: white;
+  background-color: rgb(241, 119, 34);
+}
+
+.values {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 150px 0 150px;
+}
+
+.icons-values {
+  height: 120px;
+  width: 120px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-des {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.ground {
+  font-size: 34px;
+  font-weight: 300;
+  text-align: center;
+}

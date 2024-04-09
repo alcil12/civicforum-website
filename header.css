@@ -1,0 +1,57 @@
+.header {
+  height: 100px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+
+.header-contents,
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+}
+
+.socials {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
+
+.our-work {
+  position: relative;
+  cursor: pointer;
+}
+
+.focus-area {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+  position: absolute;
+  height: 160px;
+  width: 200px;
+  font-weight: 400;
+  bottom: -220px;
+  margin: 0px;
+  left: 0px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.our-work:hover .focus-area {
+  opacity: 1;
+}
+
+.our:hover {
+  color: rgb(241, 119, 34);
+}
